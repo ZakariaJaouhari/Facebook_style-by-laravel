@@ -487,9 +487,6 @@ function hideSignupForm() {
     overlay.style.display = "none";
 }
 
-function submitForm() {
-    alert('Formulaire soumis avec succès!');
-}
 
 function showexplication1(){
     var expli2=document.getElementById('expli2');
