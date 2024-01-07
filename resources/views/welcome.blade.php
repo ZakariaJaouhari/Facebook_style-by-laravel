@@ -263,7 +263,7 @@
                 You may receive SMS notifications from us and can opt out at any<br> time.
             </p>
             <div style="text-align: center;">
-                <button type="button" onclick="submitForm()" id="sign">Sign Up</button>
+                <button type="submit"  id="sign">Sign Up</button>
             </div>
         </form>
     </div>
