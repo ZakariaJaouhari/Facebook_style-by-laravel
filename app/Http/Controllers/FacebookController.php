@@ -21,7 +21,6 @@ class FacebookController extends Controller
         'gender'  => 'required|in:male,female', 
     ]);
 
-
     Newuser::create([
         'Firstname'=> $validatedData['nameP'],
         'Surname'=> $validatedData['surname'],
@@ -30,7 +29,6 @@ class FacebookController extends Controller
         'date_birth'=> $validatedData['date'],  
         'gender'=> $validatedData['gender'], 
     ]);
-
 
     return redirect()->back()->with('success', 'Inscription réussie!');
 }
