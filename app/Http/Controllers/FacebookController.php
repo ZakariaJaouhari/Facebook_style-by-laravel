@@ -10,7 +10,6 @@ class FacebookController extends Controller
     //
     public function Ajouter(Request $request)
 {
-    dd($request->all());
 
     $validatedData = $request->validate([
         'nameP'   => 'required|string',
