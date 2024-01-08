@@ -43,7 +43,7 @@
         <img id="x" src="https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/11W0xEwKS62.png" alt=""
             onclick="hideSignupForm()">
         <hr style="position: relative;top: 5px;">
-        <form id="signup-form" action="{{ url('create') }}" method="POST">
+        <form id="signup-form" action="createnew" method="POST">
             @csrf
             <input id="nameP" name="nameP" class="inputs1" type="text" placeholder="First name" required style="margin-right: 8px;margin-left: 10px;">
             <input id="surname" name="surname" class="inputs1" type="text" placeholder="Surname"><br>
