@@ -519,4 +519,3 @@ function hidexplications(){
     expli2.style.display='none';
 
     }
-
