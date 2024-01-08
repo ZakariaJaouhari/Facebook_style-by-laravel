@@ -50,7 +50,7 @@
             <input id="mobile" name="mobile" class="inputs2" type="text" placeholder="Mobile number or email address"><br>
             <input id="password" name="password" class="inputs2" type="password" placeholder="New password"><br>
             <label for="" id="datebirth">Date of birth</label><img onclick="showexplication1()"
-                src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt="" style="height: 12px;width: 12px;"><br>
+                src="iE9yyunejFh.png" alt="" style="height: 12px;width: 12px;"><br>
             <div id="expli1">
                 <p style="margin-left: 10px;margin-top: 25px;"><b>Providing your birthday</b> helps make sure that you get<br> the
                     right Facebook experience for your age.
@@ -231,7 +231,7 @@
             </div><br>
             <label for="" id="gender" style="font-size: 12px;color: rgb(96, 103, 112);
             font-family: SFProText-Medium, Helvetica, Arial, sans-serif;margin-left: 10px;">Gender</label><img
-                onclick="showexplication2()" src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt=""
+                onclick="showexplication2()" src="iE9yyunejFh.png" alt=""
                 style="height: 12px;width: 12px;position: relative;left: 5px;"><br>
             <div id="expli2">
                 <p style="margin-left: 10px;margin-top: 25px;">You can change who sees your gender on your profile<br> later. Select
