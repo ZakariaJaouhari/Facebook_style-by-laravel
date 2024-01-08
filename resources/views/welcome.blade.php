@@ -20,7 +20,8 @@
             <div id="div2">
                 <input id="email" class="int" type="text" placeholder="Email address or phone number"><br>
                 <input id="pass" class="int" type="password" placeholder="Password"><br>
-                <a href=""><input style="font-weight: bold;" id="itnb" type="submit" value="Log in"><br></a>
+                <a href=""><input style="font-weight: bold;" id="itnb" type="submit"
+                        value="Log in"><br></a>
                 <a href="https://en-gb.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">
                     <p id="p2">Forgotten password?</p>
                 </a>
@@ -28,14 +29,16 @@
                 <input style="font-weight: bold;" id="inptB" type="button" value="Create new account"
                     onclick="showSignupForm()">
             </div>
-            <p id="p"><a id="ap" href="https://en-gb.facebook.com/pages/create/?ref_type=registration_form"
+            <p id="p"><a id="ap"
+                    href="https://en-gb.facebook.com/pages/create/?ref_type=registration_form"
                     style="color: black; font-weight: bold; ">Create a Page </a><span id="sp"> for a celebrity,
                     brand or
                     business.</span></p>
         </div>
     </div>
     <div id="signup" style="display: none;">
-        <h2 style="font-size: 32px;font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;display: block;
+        <h2
+            style="font-size: 32px;font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;display: block;
                    margin-left: 10px;margin-bottom: 3%;position: relative;top: 10px;">
             Sign Up
         </h2>
@@ -45,14 +48,17 @@
         <hr style="position: relative;top: 5px;">
         <form id="signup-form" action="createnew" method="POST">
             @csrf
-            <input id="nameP" name="nameP" class="inputs1" type="text" placeholder="First name" required style="margin-right: 8px;margin-left: 10px;">
+            <input id="nameP" name="nameP" class="inputs1" type="text" placeholder="First name" required
+                style="margin-right: 8px;margin-left: 10px;">
             <input id="surname" name="surname" class="inputs1" type="text" placeholder="Surname"><br>
-            <input id="mobile" name="mobile" class="inputs2" type="text" placeholder="Mobile number or email address"><br>
+            <input id="mobile" name="mobile" class="inputs2" type="text"
+                placeholder="Mobile number or email address"><br>
             <input id="password" name="password" class="inputs2" type="password" placeholder="New password"><br>
             <label for="" id="datebirth">Date of birth</label><img onclick="showexplication1()"
                 src="iE9yyunejFh.png" alt="" style="height: 12px;width: 12px;"><br>
             <div id="expli1">
-                <p style="margin-left: 10px;margin-top: 25px;"><b>Providing your birthday</b> helps make sure that you get<br> the
+                <p style="margin-left: 10px;margin-top: 25px;"><b>Providing your birthday</b> helps make sure that you
+                    get<br> the
                     right Facebook experience for your age.
                     If you<br> want to change who sees this, go to the About
                     section<br> of your profile. For more details, please visit our<br>
@@ -60,54 +66,54 @@
                 </p>
             </div>
             <div style="display: flex;margin-bottom: -10px;">
-                <select class="slct">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                    <option value="">6</option>
-                    <option value="">7</option>
-                    <option value="">8</option>
-                    <option value="">9</option>
-                    <option value="">10</option>
-                    <option value="">11</option>
-                    <option value="">12</option>
-                    <option value="">13</option>
-                    <option value="">14</option>
-                    <option value="">15</option>
-                    <option value="">16</option>
-                    <option value="">17</option>
-                    <option value="">18</option>
-                    <option value="">19</option>
-                    <option value="">20</option>
-                    <option value="">21</option>
-                    <option value="">22</option>
-                    <option value="">23</option>
-                    <option value="">24</option>
-                    <option value="">25</option>
-                    <option value="">26</option>
-                    <option value="">27</option>
-                    <option value="">28</option>
-                    <option value="">29</option>
-                    <option value="">30</option>
-                    <option value="">31</option>
+                <select class="slct" name="day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
                 </select>
-                <select class="slct">
-                    <option value="">Jan</option>
-                    <option value="">Feb</option>
-                    <option value="">Mar</option>
-                    <option value="">Apr</option>
-                    <option value="">May</option>
-                    <option value="">Jun</option>
-                    <option value="">Jul</option>
-                    <option value="">Aug</option>
-                    <option value="">Sep</option>
-                    <option value="">Oct</option>
-                    <option value="">Nov</option>
-                    <option value="">Dec</option>
+                <select class="slct" name="month">
+                    <option value="1">Jan</option>
+                    <option value="2">Feb</option>
+                    <option value="3">Mar</option>
+                    <option value="4">Apr</option>
+                    <option value="5">May</option>
+                    <option value="6">Jun</option>
+                    <option value="7">Jul</option>
+                    <option value="8">Aug</option>
+                    <option value="9">Sep</option>
+                    <option value="10">Oct</option>
+                    <option value="11">Nov</option>
+                    <option value="12">Dec</option>
                 </select>
-                <select class="slct">
+                <select class="slct" name="year">
                     <option value="2023">2023</option>
                     <option value="2022">2022</option>
                     <option value="2021">2021</option>
@@ -229,12 +235,14 @@
                     <option value="1905">1905</option>
                 </select>
             </div><br>
-            <label for="" id="gender" style="font-size: 12px;color: rgb(96, 103, 112);
+            <label for="" id="gender"
+                style="font-size: 12px;color: rgb(96, 103, 112);
             font-family: SFProText-Medium, Helvetica, Arial, sans-serif;margin-left: 10px;">Gender</label><img
                 onclick="showexplication2()" src="iE9yyunejFh.png" alt=""
                 style="height: 12px;width: 12px;position: relative;left: 5px;"><br>
             <div id="expli2">
-                <p style="margin-left: 10px;margin-top: 25px;">You can change who sees your gender on your profile<br> later. Select
+                <p style="margin-left: 10px;margin-top: 25px;">You can change who sees your gender on your profile<br>
+                    later. Select
                     Custom to choose another gender, or if<br> you'd rather not say.</p>
             </div>
             <div style="display: flex;">
@@ -248,22 +256,24 @@
                 </div>
             </div>
 
-            <p class="paras" id="people" style="margin-block-end: 11px;">People who use our service may have uploaded your
+            <p class="paras" id="people" style="margin-block-end: 11px;">People who use our service may have
+                uploaded your
                 contact
                 information to<br> Facebook.<a href="https://www.facebook.com/help/637205020878504"
                     style="color: rgb(56, 88, 152);" class="paras" id="more">Learn
                     more.</a></p>
-            <p class="paras" id="by">By clicking Sign Up, you agree to our<a href="https://www.facebook.com/legal/terms/update"
-                    style="color: rgb(56, 88, 152);" class="paras" id="terms" >Terms,</a><a
+            <p class="paras" id="by">By clicking Sign Up, you agree to our<a
+                    href="https://www.facebook.com/legal/terms/update" style="color: rgb(56, 88, 152);"
+                    class="paras" id="terms">Terms,</a><a
                     href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
                     style="color: rgb(56, 88, 152);" class="paras" id="PP">Privacy Policy</a>
                 and<a
                     href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0"
-                    style="color: rgb(56, 88, 152);" class="paras" id="cookies" >Cookies<br> Policy.</a>
+                    style="color: rgb(56, 88, 152);" class="paras" id="cookies">Cookies<br> Policy.</a>
                 You may receive SMS notifications from us and can opt out at any<br> time.
             </p>
             <div style="text-align: center;">
-                <button type="submit"  id="sign">Sign Up</button>
+                <button type="submit" id="sign">Sign Up</button>
             </div>
         </form>
     </div>
@@ -301,9 +311,11 @@
             <a id="a6" href="https://en-gb.facebook.com/fundraisers/">Fundraisers</a>
             <a id="a7" href="https://en-gb.facebook.com/biz/directory/">Services</a>
             <a id="a8" href="https://en-gb.facebook.com/votinginformationcenter/">Voting information centre</a>
-            <a id="a9" href="https://en-gb.facebook.com/privacy/policy/?entry_point=facebook_page_footer">Privacy
+            <a id="a9"
+                href="https://en-gb.facebook.com/privacy/policy/?entry_point=facebook_page_footer">Privacy
                 policy</a>
-            <a id="a10" href="https://en-gb.facebook.com/privacy/center/?entry_point=facebook_page_footer">Privacy
+            <a id="a10"
+                href="https://en-gb.facebook.com/privacy/center/?entry_point=facebook_page_footer">Privacy
                 centre</a>
             <a id="a11" href="https://en-gb.facebook.com/groups/discover/">Groups</a>
             <a id="a12" href="https://about.meta.com/">About</a>
