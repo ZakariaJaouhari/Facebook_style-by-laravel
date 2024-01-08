@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('create', [FacebookController::class,'Ajouter']);
+Route::post('createnew', [FacebookController::class,'Ajouter']);
