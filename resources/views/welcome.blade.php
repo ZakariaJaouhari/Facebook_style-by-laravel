@@ -333,7 +333,7 @@
             <a id="a20" href="https://en-gb.facebook.com/help/?ref=pf">Help</a>
             <a id="a21" href="https://en-gb.facebook.com/help/637205020878504">Contact Uploading and
                 non-users</a><br><br><br>
-            <a href="" style="text-decoration: none;">Meta © 2023</a>
+            <a  style="text-decoration: none;">Meta © 2023</a>
 
         </p><br><br>
 
