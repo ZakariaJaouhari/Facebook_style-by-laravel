@@ -19,6 +19,7 @@ class FacebookController extends Controller
             'day' => 'required|numeric',
             'month' => 'required|numeric',
             'year' => 'required|numeric',
+            'gender' => 'required|in:male,female',
 
 
 
@@ -32,6 +33,7 @@ class FacebookController extends Controller
             'email' => $validatedData['mobile'],
             'password' => $validatedData['password'],
             'date_birth' => $dateOfBirth,
+            'gender' => $validatedData['gender'],
 
 
         ]);
