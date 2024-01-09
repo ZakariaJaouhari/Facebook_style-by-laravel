@@ -16,6 +16,7 @@ class Newuser extends Model
         'email',
         'password',
         'date_birth',
+        'gender',
 
     ];
 }
