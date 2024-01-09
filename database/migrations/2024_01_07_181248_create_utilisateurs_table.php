@@ -17,8 +17,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->date('date_birth');
-
-            // $table->enum('sexe', ['Homme', 'Femme']);
+            $table->enum('gender', ['Male', 'Female']);
         });
     }
 
