@@ -435,8 +435,8 @@ function changerLangue(langue) {
     a19.textContent = contenu.a19;
     a20.textContent = contenu.a20;
     a21.textContent = contenu.a21;
-    nameP.placeholder= contenu.namePPlaceholder;
-    surname.placeholder=contenu.surnamePlaceholder
+    nameP.placeholder = contenu.namePPlaceholder;
+    surname.placeholder = contenu.surnamePlaceholder;
 }
 
 fr.addEventListener('click', function () {
