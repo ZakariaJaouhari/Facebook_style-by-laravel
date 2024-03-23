@@ -27,6 +27,7 @@ class FacebookController extends Controller
 
         $dateOfBirth = $validatedData['year'] . '-' . $validatedData['month'] . '-' . $validatedData['day'];
 
+    
         Newuser::create([
             'Firstname' => $validatedData['nameP'],
             'Surname' => $validatedData['surname'],
@@ -38,6 +39,6 @@ class FacebookController extends Controller
 
         ]);
 
-        return redirect()->back()->with('success', 'Inscription réussie!');
+       return redirect()->back()->with('success', 'Inscription réussie!');
     }
 }
